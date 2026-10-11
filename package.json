@@ -1,0 +1,27 @@
+{
+  "name": "desktop-patterns-app",
+  "description": "Desktop Patterns, the desktop pattern control panel for SystemOnline, built as its app file",
+  "type": "module",
+  "private": true,
+  "license": "MIT",
+  "author": "Adam Portilla",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aportilla/desktop-patterns-app.git"
+  },
+  "engines": {
+    "node": ">=22.18.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "typecheck": "tsc -p tsconfig.json && tsc -p tsconfig.node.json"
+  },
+  "devDependencies": {
+    "@types/node": "^24.19.0",
+    "system-online-sdk": "^0.1.0",
+    "typescript": "^5.9.3",
+    "vintage-frames": "^0.20.0",
+    "vite": "^8.2.1"
+  }
+}
