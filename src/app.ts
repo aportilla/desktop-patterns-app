@@ -6,7 +6,7 @@
 export const APP = {
   id: 'desktop-patterns',
   name: 'Desktop Patterns',
-  version: '0.1.0',
+  version: '0.2.0',
   author: 'Adam Portilla',
   description: "A control panel for the desktop's pattern: preview any of vintage-frames' patterns, then set it.",
 } as const
